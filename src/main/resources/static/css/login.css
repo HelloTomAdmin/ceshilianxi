@@ -1,0 +1,105 @@
+body{
+	height: 100%;
+	background: url(../images/login-bg.png) no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center ;
+}
+.login-box{
+	width: 40%;
+	height: 73.8%;
+	border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    margin:0 auto;
+}
+.login-header{
+	text-align: center;
+}
+.login-header img{
+	width: 50%;
+	margin:10px 0;
+}
+.login-header p{
+	height: 64px;
+	line-height: 64px;
+	background: #fdeacc;
+	color: #f69700;
+}
+.login-form{
+	text-align: center;
+	margin-top: 4%
+}
+.login-form input{
+	width: 60%;
+	height: 40px;
+	line-height: 40px;
+	margin:2% auto;
+	border-radius: 4px;
+	border: 1px solid #b2b2b2;
+	padding-left: 58px;
+	box-sizing: border-box;
+}
+.login-form input::placeholder{
+	font-size: 14px;
+	color: #a5a5a5;
+}
+.phone{
+	background: url(../images/login-1.png) no-repeat 0 center;
+	background-size: 48px 40px;
+}
+.psw{
+	background: url(../images/login2.png) no-repeat 0 center;
+	background-size: 48px 40px;
+}
+.code{
+	background: url(../images/login-3.png) no-repeat 0 center;
+	background-size: 48px 40px;
+}
+.code-box{
+	width: 60%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.code-box input{
+	float: left;
+}
+.code-box button{
+	width: 30%;
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	margin-top: 2%;
+	background: #dfdfdf;
+	border: 1px solid #b2b2b2;
+	border-radius: 4px;
+	font-size: 16px;
+	color: #0f0f10;
+}
+.login-form p{
+	width: 60%;
+	margin-left: 20%;
+	overflow: hidden;
+}
+.login-form p a{
+	font-size: 14px;
+	color: #787878;
+	margin-top: 8%
+}
+.login-form p .reg{
+	float: left;
+}
+.login-form p .foget-psw{
+	float: right;
+}
+.login-btn{
+	width: 60%;
+	border-radius: 4px;
+  background-color: rgb(235, 155, 0);
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  font-size: 20px;
+  color: #fefefe;
+  margin-top: 2%
+}
