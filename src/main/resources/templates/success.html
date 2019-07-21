@@ -373,8 +373,7 @@
             <ul class="sidebar-menu">
                 <li class="header">菜单</li>
 
-                <li id="admin-index"><a th:href="@{http://localhost:8080/}"><i class="fa fa-dashboard"></i>
-                    <span>首页</span></a></li>
+                <li id="admin-index"><a th:href="@{http://localhost:8080/}"><i class="fa fa-dashboard"></i><span>首页</span></a></li>
 
                 <!-- 菜单 -->
 
@@ -689,7 +688,7 @@
     <!-- 内容区域 -->
 
     <!--<div class="content-wrapper">-->
-    <div>
+    <div class="content-wrapper">
         <iframe  width="100%" id="iframe" name="iframe"	onload="SetIFrameHeight()"
                 frameborder="0" th:src="@{/admin-index}"></iframe>
 
@@ -767,6 +766,7 @@
 
     // 设置激活菜单
     function setSidebarActive(tagUri) {
+        debugger
         var liObj = $("#" + tagUri);
         if (liObj.length > 0) {
             liObj.parent().parent().addClass("active");
