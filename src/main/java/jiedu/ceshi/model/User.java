@@ -1,9 +1,11 @@
 package jiedu.ceshi.model;
 
 
+//import org.springframework.security.core.userdetails.UserDetails;
+//import org.springframework.security.core.userdetails.UserDetailsService;
+//import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
-
-public class User {
+public class User{
     private Long userId;
     private String userName;
     private String passWord;
@@ -62,4 +64,5 @@ public class User {
     public User() {
 
     }
+
 }
